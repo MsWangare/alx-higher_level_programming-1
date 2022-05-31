@@ -6,7 +6,7 @@ num = repr(number)
 num = num[-1]
 num = int(num)
 if number < 0:
-    num * -1
+    num *= -1
 
 if num < 6 and num != 0:
     print("Last digit of {:d} is {:d} and is less than 6 and not 0".format(number, num))
