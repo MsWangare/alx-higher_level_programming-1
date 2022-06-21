@@ -3,7 +3,6 @@
 Practicing private attributes within a class and public method
 """
 
-
 class Square:
     """Square with size attribute, throws exceptions if size is not valid
     and with a public method that returns the area
