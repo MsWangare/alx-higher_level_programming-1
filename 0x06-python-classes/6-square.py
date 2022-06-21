@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-"""Defining the Sqaure class"""
+"""Defines a class Square"""
+
 
 class Square:
-    """Square Attributes:
+    """Represents a square
+
+    Attributes:
         __size (int): size of a size of the square
         __position (tuple): position of the square in 2D space
     """

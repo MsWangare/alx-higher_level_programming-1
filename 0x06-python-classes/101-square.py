@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines the Sqaure Class"""
+"""Defines a class Square"""
+
 
 class Square:
     """Represents a square
@@ -22,7 +23,7 @@ class Square:
         self.position = position
 
     def area(self):
-        """Calculates the square's area
+        """calculates the square's area
 
         Returns:
             The area of the square
