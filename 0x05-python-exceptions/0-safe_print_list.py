@@ -1,8 +1,13 @@
 #!usr/bin/python3
 
-def safe_print_list(my_list=[], x=0)
-{
-    for (x in range(my_list)){
-            print(my_list[x])
-        }
-}
+def safe_print_list(my_list=[], x=0):
+        j = 0
+        try:
+            for i in range(x):
+                print(my_list[i], end="")
+                j += 1
+        except IndexError:
+            print()
+            return j
+        print()
+        return j
