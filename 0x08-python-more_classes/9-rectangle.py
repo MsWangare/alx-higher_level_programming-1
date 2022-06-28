@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-Defines a class Rectangle
+Defines a class called Rectangle
 """
+
 
 class Rectangle:
     """Representation of a rectangle"""
@@ -30,7 +31,6 @@ class Rectangle:
         self.width = width
         self.height = height
         Rectangle.number_of_instances += 1
-
 
     def __del__(self):
         """prints a string when an instance has been deleted"""
